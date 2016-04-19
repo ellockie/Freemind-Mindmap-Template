@@ -857,7 +857,7 @@
 </node>
 <node COLOR="#663300" CREATED="1458797403007" ID="ID_1069576275" MODIFIED="1460429192072" TEXT="WAITING">
 <icon BUILTIN="hourglass"/>
-<node CREATED="1458797456848" ID="ID_1479824726" MODIFIED="1460429114232" TEXT="Meaning: Cannot / shouldn&apos;t proceed further unless something happens, but is ready to be done and should be done ASAP">
+<node CREATED="1458797456848" ID="ID_1479824726" MODIFIED="1461025815181" TEXT="Meaning: Cannot / shouldn&apos;t proceed further unless something happens, but is ready to be done and should be done ASAP after the condition is cleared">
 <icon BUILTIN="info"/>
 </node>
 <node CREATED="1458797505926" ID="ID_400998186" MODIFIED="1458797692813" TEXT="Condition / reason 1">
