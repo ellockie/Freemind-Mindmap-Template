@@ -349,11 +349,16 @@
 <node COLOR="#3366ff" CREATED="1457248397522" ID="ID_1558876133" MODIFIED="1461029958826" TEXT="IN PROGRESS">
 <icon BUILTIN="forward"/>
 </node>
-<node COLOR="#c49a21" CREATED="1458797403007" ID="ID_1016379926" MODIFIED="1461029758579" TEXT="BLOCKED">
-<icon BUILTIN="stop"/>
-</node>
 <node COLOR="#cc0033" CREATED="1457248392842" ID="ID_426452087" MODIFIED="1458536974225" TEXT="TODO">
 <icon BUILTIN="list"/>
+</node>
+<node COLOR="#c49a21" CREATED="1458797403007" ID="ID_1016379926" MODIFIED="1461073005697" TEXT="BLOCKED">
+<icon BUILTIN="stop"/>
+<node CREATED="1461072993730" ID="ID_1237732295" MODIFIED="1461072999152" TEXT="Below TODO?"/>
+<node CREATED="1461073043284" ID="ID_22650360" MODIFIED="1461073068915" TEXT="Ready to do, but waiting for completion of other task?">
+<icon BUILTIN="info"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#663300" CREATED="1458797403007" ID="ID_1565069315" MODIFIED="1460609675289" TEXT="WAITING">
 <icon BUILTIN="hourglass"/>
@@ -366,7 +371,20 @@
 <icon BUILTIN="idea"/>
 </node>
 </node>
-<node CREATED="1461029883707" ID="ID_740286717" MODIFIED="1461033699437" TEXT="Option 2, using traffic lights for tasks that have soem external dependency(?)">
+<node CREATED="1461029883707" ID="ID_740286717" MODIFIED="1461073118489">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Option 2, using traffic lights for tasks that
+    </p>
+    <p>
+      have some external dependency(?)
+    </p>
+  </body>
+</html></richcontent>
 <node COLOR="#00cc00" CREATED="1457248405553" ID="ID_788279546" MODIFIED="1461029970602" TEXT="DONE">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -375,12 +393,15 @@
 </node>
 <node COLOR="#cc0033" CREATED="1457248392842" ID="ID_100183034" MODIFIED="1461030052526" TEXT="READY TODO / TODO NEXT">
 <icon BUILTIN="go"/>
+<node CREATED="1461072962010" ID="ID_773079893" MODIFIED="1461072967422" TEXT="Green?"/>
 </node>
 <node COLOR="#663300" CREATED="1458797403007" ID="ID_1591968830" MODIFIED="1461030005912" TEXT="BLOCKED / WAITING">
 <icon BUILTIN="prepare"/>
+<node CREATED="1461072971137" ID="ID_1550618687" MODIFIED="1461072973862" TEXT="Yellow?"/>
 </node>
-<node COLOR="#c49a21" CREATED="1458797403007" ID="ID_1710794363" MODIFIED="1461030014343" TEXT="ON-HOLD">
+<node COLOR="#c49a21" CREATED="1458797403007" ID="ID_1710794363" MODIFIED="1461072939830" TEXT="ON-HOLD / WAITING">
 <icon BUILTIN="stop"/>
+<node CREATED="1461072977930" ID="ID_1249639461" MODIFIED="1461072979694" TEXT="Red?"/>
 </node>
 <node COLOR="#999999" CREATED="1457248768407" ID="ID_957853779" MODIFIED="1458012009294" STYLE="fork" TEXT="MAYBE">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
@@ -787,6 +808,10 @@
 <node CREATED="1458800410186" ID="ID_781855967" MODIFIED="1458800498825" TEXT="Apply the non-complexity rule, categorise only if more than one type at the same level?">
 <icon BUILTIN="help"/>
 </node>
+</node>
+<node CREATED="1464257352293" ID="ID_1528730644" MODIFIED="1464257453045" TEXT="Assume the rule that if child&apos;s visual style is the same as parents there should be no style on the child"/>
+<node CREATED="1465879757729" ID="ID_1122580707" MODIFIED="1465879793499" TEXT="What about a guideline, specification of how the task should be performed?">
+<icon BUILTIN="help"/>
 </node>
 </node>
 </node>
